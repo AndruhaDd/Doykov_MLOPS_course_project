@@ -29,12 +29,12 @@
 
 mlops-course-project/
 │
-├── api/                     # FastAPI сервис
+├── api/                   # FastAPI сервис
 │   ├── main.py
 │   ├── schemas.py
 │   └── inference_service.py
 │
-├── src/                     # Обучение и логика модели
+├── src/                   # Обучение и логика модели
 │   ├── train.py
 │   ├── preprocess.py
 │   └── inference.py
@@ -49,13 +49,14 @@ mlops-course-project/
 ├── configs/
 │   └── config.yaml
 │
-├── mlruns/                  # Логи MLflow
+├── mlruns/                # Логи MLflow
 │
 ├── Dockerfile
 ├── requirements.txt
 ├── MODEL_CARD.md
 ├── DATASET_CARD.md
 └── README.md
+
 
 
 ---
@@ -174,6 +175,7 @@ trained_model.pkl
 Docker build
    ↓
 FastAPI inference service
+
 
 
 
