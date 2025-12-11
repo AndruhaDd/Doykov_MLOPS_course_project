@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/andruha/mlops-course-project/mlruns/308650794424858446/1e30b46f3e50462a8351503004125f2b/artifacts
+end_time: 1763679594144
+entry_point_name: ''
+experiment_id: '308650794424858446'
+lifecycle_stage: active
+run_id: 1e30b46f3e50462a8351503004125f2b
+run_name: youthful-hog-426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763679589218
+status: 3
+tags: []
+user_id: andruha

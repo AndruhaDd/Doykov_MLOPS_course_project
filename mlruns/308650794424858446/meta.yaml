@@ -1,0 +1,6 @@
+artifact_location: file:///Users/andruha/mlops-course-project/mlruns/308650794424858446
+creation_time: 1763675599014
+experiment_id: '308650794424858446'
+last_update_time: 1763675599014
+lifecycle_stage: active
+name: air_quality_experiments

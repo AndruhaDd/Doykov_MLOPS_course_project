@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/andruha/mlops-course-project/mlruns/308650794424858446/6f087e3dfe7343608372a67cbda8841c/artifacts
+end_time: 1763675603930
+entry_point_name: ''
+experiment_id: '308650794424858446'
+lifecycle_stage: active
+run_id: 6f087e3dfe7343608372a67cbda8841c
+run_name: likeable-wolf-86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763675599108
+status: 3
+tags: []
+user_id: andruha

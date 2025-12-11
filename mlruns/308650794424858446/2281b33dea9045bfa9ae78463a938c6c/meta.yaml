@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/andruha/mlops-course-project/mlruns/308650794424858446/2281b33dea9045bfa9ae78463a938c6c/artifacts
+end_time: 1763679040081
+entry_point_name: ''
+experiment_id: '308650794424858446'
+lifecycle_stage: active
+run_id: 2281b33dea9045bfa9ae78463a938c6c
+run_name: beautiful-swan-452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763679035232
+status: 3
+tags: []
+user_id: andruha
