@@ -27,36 +27,27 @@
 
 ## 3. Структура репозитория
 
-mlops-course-project/
-│
-├── api/                   # FastAPI сервис
-│   ├── main.py
-│   ├── schemas.py
-│   └── inference_service.py
-│
-├── src/                   # Обучение и логика модели
-│   ├── train.py
-│   ├── preprocess.py
-│   └── inference.py
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── models/
-│   └── trained_model.pkl
-│
-├── configs/
-│   └── config.yaml
-│
-├── mlruns/                # Логи MLflow
-│
-├── Dockerfile
-├── requirements.txt
-├── MODEL_CARD.md
-├── DATASET_CARD.md
-└── README.md
-
+mlops-course-project
+--api/                 # FastAPI сервис
+------ main.py
+------ schemas.py
+------ inference_service.py
+-- src/                  # Обучение и логика модели
+------ train.py
+------ preprocess.py
+------ inference.py
+-- data/                 # Данные
+------ raw
+------ processed
+-- models/
+------ trained_model.pkl
+-- configs/
+------ config.yaml
+-- mlruns/                # Логи MLflow
+-- Dockerfile
+-- requirements.txt
+-- MODEL_CARD.md
+-- DATASET_CARD.md
 
 
 ---
@@ -175,6 +166,7 @@ trained_model.pkl
 Docker build
    ↓
 FastAPI inference service
+
 
 
 
