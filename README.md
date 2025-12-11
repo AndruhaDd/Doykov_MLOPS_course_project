@@ -154,18 +154,19 @@ Pipeline гарантирует воспроизводимость и корре
 ## 10. Пайплайн проекта
 
 RAW data
-   ↓
+   -
 prepare.py
-   ↓
+   -
 Processed data
-   ↓
+   -
 train.py (MLflow)
-   ↓
+   -
 trained_model.pkl
-   ↓
+   -
 Docker build
-   ↓
+   -
 FastAPI inference service
+
 
 
 
