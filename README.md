@@ -27,28 +27,28 @@
 
 ## 3. Структура репозитория
 
-mlops-course-project
---api/                 # FastAPI сервис
------- main.py
------- schemas.py
------- inference_service.py
--- src/                  # Обучение и логика модели
------- train.py
------- preprocess.py
------- inference.py
--- data/                 # Данные
------- raw
------- processed
--- models/
------- trained_model.pkl
--- configs/
------- config.yaml
--- mlruns/                # Логи MLflow
--- Dockerfile
--- requirements.txt
--- MODEL_CARD.md
--- DATASET_CARD.md
-
+| Путь / файл             | Описание                     |
+|-------------------------|------------------------------|
+| `api/`                  | FastAPI сервис               |
+| ├── `main.py`           | Точка входа FastAPI          |
+| ├── `schemas.py`        | Pydantic-схемы               |
+| └── `inference_service.py` | Логика инференса в API   |
+| `src/`                  | Обучение и логика модели     |
+| ├── `train.py`          | Скрипт обучения              |
+| ├── `preprocess.py`     | Предобработка данных         |
+| └── `inference.py`      | Локальный инференс модели    |
+| `data/`                 | Данные                       |
+| ├── `raw/`              | Сырые данные                 |
+| └── `processed/`        | Обработанные данные          |
+| `models/`               | Модели                       |
+| └── `trained_model.pkl` | Обученная модель             |
+| `configs/`              | Конфигурации                 |
+| └── `config.yaml`       | Основной конфигурационный файл |
+| `mlruns/`               | Логи MLflow                  |
+| `Dockerfile`            | Docker-образ проекта         |
+| `requirements.txt`      | Зависимости Python           |
+| `MODEL_CARD.md`         | Документация о модели        |
+| `DATASET_CARD.md`       | Документация о датасете      |
 
 ---
 
@@ -166,6 +166,7 @@ trained_model.pkl
 Docker build
    ↓
 FastAPI inference service
+
 
 
 
